@@ -1,0 +1,28 @@
+//
+//  EAPrefixHeader.pch
+//  Assignment
+//
+//  Created by Matteo Comisso on 09/01/16.
+//  Copyright © 2016 mcomisso. All rights reserved.
+//
+
+#ifndef EAPrefixHeader_h
+#define EAPrefixHeader_h
+
+#import "ApiManager.h"
+
+#import <Masonry/Masonry.h>
+#import "Constant.h"
+
+// Debug log
+#ifdef DEBUG
+#   define DLog(fmt, ...) NSLog((@"**DEBUG** %s [Line %d] " fmt), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__)
+#else
+#   define DLog(...)
+#endif
+
+// Always Log
+#define ALog(fmt, ...) NSLog((@"%s [Line %d] " fmt), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__)
+
+
+#endif /* EAPrefixHeader_h */
