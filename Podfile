@@ -17,8 +17,6 @@ target 'Assignment' do
     pod 'SVProgressHUD'
     pod 'UAObfuscatedString', '0.3.1'
     
-    # Debug
-    pod 'Reveal-iOS-SDK', :configurations => ['Debug']
 end
 
 target 'AssignmentTests' do
