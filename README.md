@@ -1,4 +1,4 @@
-# iOS personal assignment
-## This is an assignment for a internship.
+# iOS assignment
 
-The goal was to create a simple api consumer for the Flick APIs, and display the picture results for a certain tag.
+### Task assigned for an internship selection
+The goal was to create a simple gallery around Flick APIs, and display all the available pictures containing a certain tag.
